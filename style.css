@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Roboto";
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(58, 56, 56, 0.315);
+}
+.logo {
+
+}
+.logo img {
+    height: 80px;
+    width: 100px;
+    /* padding: 50px; */
+    margin-left: 150px;
+}
+/* search-bar */
+.search {
+    border: 2px solid green;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 150px;
+}
+.search input{
+    width: 450px;
+    height: 50px;
+    border: none;
+    padding-left: 15px;
+}
+.search ::placeholder {
+    color: #d1c3c3d3;
+    
+}
+.searchicon i {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: green;
+   width: 45px;
+   height: 50px;
+   color: white;
+   font-size: 22px;
+   
+}
+/* icon sec */
+.singin {
+    
+    display: flex;
+    align-items: center;
+    /* height: 50px;
+    /* width: 30px; */
+    justify-content: center;
+    margin-left: 300px;
+}
+.singin i {
+   font-size: 30px;
+}
+.singin span {
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* icons */
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 100px;
+}
+.icons i {
+    font-size: 20PX;
+}
+/* nav-2 */
+.navb2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.logo i {
+    font-size: 20px;
+}
+.anchors {
+    display: flex;
+    gap: 20px;
+}
+.anchors a{
+    text-decoration: none;
+    color: black;
+    
+}
+.contact {
+    align-items: center;
+    
+}
+.contact i {
+    color: green;
+}
+.contact span {
+    margin-left: 8px;
+}
+/* body section */
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    background-color: #c9eedd;
+    width: 100%;
+    height: 600px;
+}
+.left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+.left1 p {
+    color: #b3a9a9;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left1 h1 {
+    font-size: 50px;
+}
+.left1 span {
+    font-size: 15px;
+}
+.button {
+  
+    
+}
+.button button {
+    border: none;
+    height: 45px;
+    width: 140px;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+.button i {
+
+}
+/* right side */
+.right1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    background-color: #b3a9a927;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+.img  img {
+    height: 500px;
+    width: 500px;
+}
+/* second layout */
+/* body {
+    font-family: "Roboto";
+} */
+.section-2 {
+    width: 100%;
+    height: 600px;
+}
+.top {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top h1 {
+    
+}
+.top p {
+   color: #797777;
+   text-align: center;
+   line-height: 25px;
+   letter-spacing: 0.5px;
+}
+.bottom {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.bottom-left {
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 150px;
+}
+.bottom-right {
+    width: 75%;
+    height: 600px;
+    margin-left: 20px;
+}
+.btm-left-card {
+    width: 100%;
+    height: 20%;
+    background-color: #f5f2f28a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.btm-left-card span {
+    color: black;
+    font-weight: 600;
+}
+.btm-left-card p {
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+}
+.bottom-right img {
+    height: 100%;
+    margin-right: 30px;
+}
