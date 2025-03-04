@@ -205,12 +205,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .bottom-right {
     width: 75%;
     height: 600px;
     margin-left: 20px;
+    box-sizing: border-box;
 }
 .btm-left-card {
     width: 100%;
@@ -232,5 +233,5 @@ body {
 }
 .bottom-right img {
     height: 100%;
-    margin-right: 30px;
+    margin-right: 20px;
 }
